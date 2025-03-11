@@ -1,0 +1,44 @@
+{
+  "name": "Matjarna Dark Theme",
+  "displayName": "Matjarna Dark Theme",
+  "isSystemTheme": false,
+  "colors": {
+    "primary": "#4CAF50",
+    "secondary": "#03A9F4",
+    "background": "#1E1E1E",
+    "accent": "#FF5722",
+    "success": "#4CAF50",
+    "warning": "#FFC107",
+    "danger": "#F44336",
+    "homepageTile": "#4CAF50"
+  },
+  "config": {
+    "fontFamily": "'Cairo', sans-serif",
+    "borderRadius": {
+      "sm": "4px",
+      "md": "6px",
+      "lg": "8px"
+    },
+    "boxShadow": {
+      "default": "0 2px 4px rgba(0, 0, 0, 0.3)",
+      "card": "0 4px 8px rgba(0, 0, 0, 0.3)",
+      "dialog": "0 8px 16px rgba(0, 0, 0, 0.4)"
+    }
+  },
+  "properties": {
+    "colors": {
+      "primaryColor": "#4CAF50",
+      "backgroundColor": "#1E1E1E"
+    },
+    "borderRadius": {
+      "appBorderRadius": "6px"
+    },
+    "boxShadow": {
+      "appBoxShadow": "0 4px 8px rgba(0, 0, 0, 0.3)"
+    }
+  },
+  "stylesheet": {
+    "BODY_BACKGROUND_COLOR": "#1E1E1E",
+    "BODY_TEXT_COLOR": "#E0E0E0"
+  }
+}
