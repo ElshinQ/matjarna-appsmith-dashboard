@@ -1,0 +1,693 @@
+{
+  "unpublishedPage": {
+    "name": "Dashboard",
+    "slug": "dashboard",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 16,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 800,
+          "containerStyle": "none",
+          "snapRows": 33,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 800,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "Header",
+              "backgroundColor": "{{appsmith.theme.colors.primary}}",
+              "rightColumn": 16,
+              "widgetId": "header1",
+              "topRow": 0,
+              "bottomRow": 3,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "CONTAINER_WIDGET",
+              "parentColumnSpace": 74.5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "backgroundColor"
+                }
+              ],
+              "leftColumn": 0,
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 1224,
+                  "detachFromLayout": true,
+                  "widgetId": "header1_canvas",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 30,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Text1",
+                      "rightColumn": 16,
+                      "widgetId": "header_title",
+                      "topRow": 0.5,
+                      "bottomRow": 2.5,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textAlign": "LEFT",
+                      "textColor": "#FFFFFF",
+                      "fontSize": "24px",
+                      "type": "TEXT_WIDGET",
+                      "text": "لوحة التحكم - متجرنا",
+                      "leftColumn": 0.5
+                    },
+                    {
+                      "widgetName": "ToggleTheme",
+                      "rightColumn": 15.5,
+                      "iconName": "moon-line",
+                      "widgetId": "theme_toggle",
+                      "topRow": 0.5,
+                      "bottomRow": 2.5,
+                      "isVisible": true,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "iconColor": "#FFFFFF",
+                      "leftColumn": 14
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "widgetName": "StatsContainer",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 16,
+              "widgetId": "stats_container",
+              "containerStyle": "card",
+              "topRow": 3.5,
+              "bottomRow": 9.5,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "CONTAINER_WIDGET",
+              "parentColumnSpace": 74.5,
+              "leftColumn": 0,
+              "children": [
+                {
+                  "widgetName": "Canvas2",
+                  "rightColumn": 1224,
+                  "detachFromLayout": true,
+                  "widgetId": "stats_container_canvas",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 60,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Card1",
+                      "backgroundColor": "{{appsmith.theme.colors.primary}}",
+                      "rightColumn": 4,
+                      "widgetId": "sales_card",
+                      "topRow": 0.5,
+                      "bottomRow": 5.5,
+                      "type": "CONTAINER_WIDGET",
+                      "containerStyle": "card",
+                      "parentColumnSpace": 76.5,
+                      "parentRowSpace": 10,
+                      "isVisible": true,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "backgroundColor"
+                        }
+                      ],
+                      "leftColumn": 0.5,
+                      "children": [
+                        {
+                          "widgetName": "Canvas3",
+                          "rightColumn": 306,
+                          "detachFromLayout": true,
+                          "widgetId": "sales_card_canvas",
+                          "containerStyle": "none",
+                          "topRow": 0,
+                          "bottomRow": 50,
+                          "parentRowSpace": 1,
+                          "isVisible": true,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "children": [
+                            {
+                              "widgetName": "Text3",
+                              "rightColumn": 16,
+                              "widgetId": "sales_title",
+                              "topRow": 0.5,
+                              "bottomRow": 2,
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textAlign": "CENTER",
+                              "textColor": "#FFFFFF",
+                              "fontSize": "16px",
+                              "type": "TEXT_WIDGET",
+                              "text": "إجمالي المبيعات",
+                              "leftColumn": 0
+                            },
+                            {
+                              "widgetName": "Text4",
+                              "rightColumn": 16,
+                              "widgetId": "sales_value",
+                              "topRow": 2,
+                              "bottomRow": 4.5,
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textAlign": "CENTER",
+                              "textColor": "#FFFFFF",
+                              "fontSize": "24px",
+                              "type": "TEXT_WIDGET",
+                              "text": "دا ١٢٬٥٠٠",
+                              "leftColumn": 0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "widgetName": "Card2",
+                      "backgroundColor": "{{appsmith.theme.colors.secondary}}",
+                      "rightColumn": 7.5,
+                      "widgetId": "orders_card",
+                      "topRow": 0.5,
+                      "bottomRow": 5.5,
+                      "type": "CONTAINER_WIDGET",
+                      "containerStyle": "card",
+                      "parentRowSpace": 10,
+                      "parentColumnSpace": 76.5,
+                      "isVisible": true,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "backgroundColor"
+                        }
+                      ],
+                      "leftColumn": 4,
+                      "children": [
+                        {
+                          "widgetName": "Canvas4",
+                          "rightColumn": 267,
+                          "detachFromLayout": true,
+                          "widgetId": "orders_card_canvas",
+                          "containerStyle": "none",
+                          "topRow": 0,
+                          "bottomRow": 50,
+                          "parentRowSpace": 1,
+                          "isVisible": true,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "children": [
+                            {
+                              "widgetName": "Text5",
+                              "rightColumn": 16,
+                              "widgetId": "orders_title",
+                              "topRow": 0.5,
+                              "bottomRow": 2,
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textAlign": "CENTER",
+                              "textColor": "#FFFFFF",
+                              "fontSize": "16px",
+                              "type": "TEXT_WIDGET",
+                              "text": "عدد الطلبات",
+                              "leftColumn": 0
+                            },
+                            {
+                              "widgetName": "Text6",
+                              "rightColumn": 16,
+                              "widgetId": "orders_value",
+                              "topRow": 2,
+                              "bottomRow": 4.5,
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textAlign": "CENTER",
+                              "textColor": "#FFFFFF",
+                              "fontSize": "24px",
+                              "type": "TEXT_WIDGET",
+                              "text": "٧٥",
+                              "leftColumn": 0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "widgetName": "Card3",
+                      "backgroundColor": "{{appsmith.theme.colors.success}}",
+                      "rightColumn": 11,
+                      "widgetId": "products_card",
+                      "topRow": 0.5,
+                      "bottomRow": 5.5,
+                      "type": "CONTAINER_WIDGET",
+                      "containerStyle": "card",
+                      "parentRowSpace": 10,
+                      "parentColumnSpace": 76.5,
+                      "isVisible": true,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "backgroundColor"
+                        }
+                      ],
+                      "leftColumn": 7.5,
+                      "children": [
+                        {
+                          "widgetName": "Canvas5",
+                          "rightColumn": 267,
+                          "detachFromLayout": true,
+                          "widgetId": "products_card_canvas",
+                          "containerStyle": "none",
+                          "topRow": 0,
+                          "bottomRow": 50,
+                          "parentRowSpace": 1,
+                          "isVisible": true,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "children": [
+                            {
+                              "widgetName": "Text7",
+                              "rightColumn": 16,
+                              "widgetId": "products_title",
+                              "topRow": 0.5,
+                              "bottomRow": 2,
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textAlign": "CENTER",
+                              "textColor": "#FFFFFF",
+                              "fontSize": "16px",
+                              "type": "TEXT_WIDGET",
+                              "text": "عدد المنتجات",
+                              "leftColumn": 0
+                            },
+                            {
+                              "widgetName": "Text8",
+                              "rightColumn": 16,
+                              "widgetId": "products_value",
+                              "topRow": 2,
+                              "bottomRow": 4.5,
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textAlign": "CENTER",
+                              "textColor": "#FFFFFF",
+                              "fontSize": "24px",
+                              "type": "TEXT_WIDGET",
+                              "text": "١٢٣",
+                              "leftColumn": 0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "widgetName": "Card4",
+                      "backgroundColor": "{{appsmith.theme.colors.warning}}",
+                      "rightColumn": 15.5,
+                      "widgetId": "lowstock_card",
+                      "topRow": 0.5,
+                      "bottomRow": 5.5,
+                      "type": "CONTAINER_WIDGET",
+                      "containerStyle": "card",
+                      "parentRowSpace": 10,
+                      "parentColumnSpace": 76.5,
+                      "isVisible": true,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "backgroundColor"
+                        }
+                      ],
+                      "leftColumn": 11,
+                      "children": [
+                        {
+                          "widgetName": "Canvas6",
+                          "rightColumn": 344,
+                          "detachFromLayout": true,
+                          "widgetId": "lowstock_card_canvas",
+                          "containerStyle": "none",
+                          "topRow": 0,
+                          "bottomRow": 50,
+                          "parentRowSpace": 1,
+                          "isVisible": true,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "children": [
+                            {
+                              "widgetName": "Text9",
+                              "rightColumn": 16,
+                              "widgetId": "lowstock_title",
+                              "topRow": 0.5,
+                              "bottomRow": 2,
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textAlign": "CENTER",
+                              "textColor": "#FFFFFF",
+                              "fontSize": "16px",
+                              "type": "TEXT_WIDGET",
+                              "text": "المنتجات منخفضة المخزون",
+                              "leftColumn": 0
+                            },
+                            {
+                              "widgetName": "Text10",
+                              "rightColumn": 16,
+                              "widgetId": "lowstock_value",
+                              "topRow": 2,
+                              "bottomRow": 4.5,
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textAlign": "CENTER",
+                              "textColor": "#FFFFFF",
+                              "fontSize": "24px",
+                              "type": "TEXT_WIDGET",
+                              "text": "٨",
+                              "leftColumn": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "widgetName": "ChartContainer",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 16,
+              "widgetId": "chart_container",
+              "containerStyle": "card",
+              "topRow": 10,
+              "bottomRow": 24,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "CONTAINER_WIDGET",
+              "parentColumnSpace": 74.5,
+              "leftColumn": 0,
+              "children": [
+                {
+                  "widgetName": "Canvas7",
+                  "rightColumn": 1224,
+                  "detachFromLayout": true,
+                  "widgetId": "chart_container_canvas",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 140,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Text11",
+                      "rightColumn": 16,
+                      "widgetId": "chart_title",
+                      "topRow": 0.5,
+                      "bottomRow": 2.5,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textAlign": "LEFT",
+                      "textColor": "#231F20",
+                      "fontSize": "16px",
+                      "type": "TEXT_WIDGET",
+                      "text": "مبيعات الشهر الحالي",
+                      "leftColumn": 0.5
+                    },
+                    {
+                      "widgetName": "SalesChart",
+                      "rightColumn": 15.5,
+                      "widgetId": "sales_chart",
+                      "topRow": 3,
+                      "bottomRow": 13,
+                      "parentRowSpace": 10,
+                      "isVisible": true,
+                      "chartType": "LINE_CHART",
+                      "chartName": "مبيعات الشهر",
+                      "xAxisName": "التاريخ",
+                      "yAxisName": "المبيعات (ريال)",
+                      "type": "CHART_WIDGET",
+                      "chartData": [
+                        {
+                          "x": "1",
+                          "y": 1000
+                        },
+                        {
+                          "x": "2",
+                          "y": 1200
+                        },
+                        {
+                          "x": "3",
+                          "y": 900
+                        },
+                        {
+                          "x": "4",
+                          "y": 1100
+                        },
+                        {
+                          "x": "5",
+                          "y": 1500
+                        },
+                        {
+                          "x": "6",
+                          "y": 1300
+                        },
+                        {
+                          "x": "7",
+                          "y": 1400
+                        }
+                      ],
+                      "leftColumn": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "widgetName": "NavContainer",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 16,
+              "widgetId": "nav_container",
+              "containerStyle": "card",
+              "topRow": 24.5,
+              "bottomRow": 28.5,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "CONTAINER_WIDGET",
+              "parentColumnSpace": 74.5,
+              "leftColumn": 0,
+              "children": [
+                {
+                  "widgetName": "Canvas8",
+                  "rightColumn": 1224,
+                  "detachFromLayout": true,
+                  "widgetId": "nav_container_canvas",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 40,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Text12",
+                      "rightColumn": 16,
+                      "widgetId": "nav_title",
+                      "topRow": 0.5,
+                      "bottomRow": 2.5,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textAlign": "LEFT",
+                      "textColor": "#231F20",
+                      "fontSize": "16px",
+                      "type": "TEXT_WIDGET",
+                      "text": "التنقل السريع",
+                      "leftColumn": 0.5
+                    },
+                    {
+                      "widgetName": "Button1",
+                      "rightColumn": 4,
+                      "widgetId": "products_nav_button",
+                      "topRow": 2.5,
+                      "bottomRow": 3.5,
+                      "text": "إدارة المنتجات",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "buttonStyle": "PRIMARY",
+                      "placement": "CENTER",
+                      "buttonColor": "{{appsmith.theme.colors.primary}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "leftColumn": 0.5,
+                      "type": "BUTTON_WIDGET"
+                    },
+                    {
+                      "widgetName": "Button2",
+                      "rightColumn": 7.5,
+                      "widgetId": "orders_nav_button",
+                      "topRow": 2.5,
+                      "bottomRow": 3.5,
+                      "text": "إدارة الطلبات",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "buttonStyle": "PRIMARY",
+                      "buttonColor": "{{appsmith.theme.colors.secondary}}",
+                      "placement": "CENTER",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "leftColumn": 4,
+                      "type": "BUTTON_WIDGET"
+                    },
+                    {
+                      "widgetName": "Button3",
+                      "rightColumn": 11,
+                      "widgetId": "customers_nav_button",
+                      "topRow": 2.5,
+                      "bottomRow": 3.5,
+                      "text": "سجلات العملاء",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "buttonStyle": "PRIMARY",
+                      "buttonColor": "{{appsmith.theme.colors.success}}",
+                      "placement": "CENTER",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "leftColumn": 7.5,
+                      "type": "BUTTON_WIDGET"
+                    },
+                    {
+                      "widgetName": "Button4",
+                      "rightColumn": 15.5,
+                      "widgetId": "chat_button",
+                      "topRow": 2.5,
+                      "bottomRow": 3.5,
+                      "text": "دردشة المساعدة",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "buttonStyle": "PRIMARY",
+                      "buttonColor": "{{appsmith.theme.colors.accent}}",
+                      "placement": "CENTER",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "leftColumn": 11,
+                      "type": "BUTTON_WIDGET"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Dashboard",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "publishedPage": {
+    "name": "Dashboard",
+    "slug": "dashboard",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 16,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 800,
+          "containerStyle": "none",
+          "snapRows": 33,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 800,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": []
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Dashboard",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "dashboard"
+}
