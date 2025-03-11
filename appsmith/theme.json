@@ -1,0 +1,44 @@
+{
+  "name": "Matjarna Theme",
+  "displayName": "Matjarna Theme",
+  "isSystemTheme": false,
+  "colors": {
+    "primary": "#4CAF50",
+    "secondary": "#03A9F4",
+    "background": "#F5F5F5",
+    "accent": "#FF5722",
+    "success": "#4CAF50",
+    "warning": "#FFC107",
+    "danger": "#F44336",
+    "homepageTile": "#4CAF50"
+  },
+  "config": {
+    "fontFamily": "'Cairo', sans-serif",
+    "borderRadius": {
+      "sm": "4px",
+      "md": "6px",
+      "lg": "8px"
+    },
+    "boxShadow": {
+      "default": "0 2px 4px rgba(0, 0, 0, 0.1)",
+      "card": "0 4px 8px rgba(0, 0, 0, 0.1)",
+      "dialog": "0 8px 16px rgba(0, 0, 0, 0.2)"
+    }
+  },
+  "properties": {
+    "colors": {
+      "primaryColor": "#4CAF50",
+      "backgroundColor": "#F5F5F5"
+    },
+    "borderRadius": {
+      "appBorderRadius": "6px"
+    },
+    "boxShadow": {
+      "appBoxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    }
+  },
+  "stylesheet": {
+    "BODY_BACKGROUND_COLOR": "#F5F5F5",
+    "BODY_TEXT_COLOR": "#333333"
+  }
+}
